@@ -6,7 +6,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL (string: "http://91.183.88.43:8204/V1/Sjr")
+        let url = URL (string: "http://86.107.123.58:8204//V1/Sjr")
         let requestObj = URLRequest(url: url!)
         webView.loadRequest(requestObj)
     }
